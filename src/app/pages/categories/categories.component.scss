@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap');
+
+
+.categoriesPage-container {
+	padding-bottom: 5rem;
+
+	.wrapper {
+
+		h4 {
+			padding: 100px 20px 0;
+			font-weight: 800;
+			color: #735C5C;
+		}
+
+		.container {
+			padding: 20px;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 15px;
+
+		}
+	}
+}
+
+@media only screen and (min-width: 999px) {
+
+
+	.categoriesPage-container {
+
+
+		.wrapper {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding-top: 60px;
+
+			.container {
+				grid-template-columns: repeat(5, 1fr);
+				grid-gap: 2px;
+			}
+		}
+	}
+}
